@@ -1,0 +1,29 @@
+# Site settings
+title: "Casca's Engineering Study Vault"
+description: "A curated collection of engineering study resources, gamified learning tools, and certification prep."
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://your-github-username.github.io/your-repo-name"
+
+# Theme settings
+theme: jekyll-theme-minimal # You can change this to another built-in theme
+remote_theme: jekyll-theme-cayman # Alternative remote theme option
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation links (optional)
+navbar-links:
+  Home: "/"
+  Fun Stuff: "/#-fun-stuff-"
+  Certification Prep: "/#-certification--exam-prep"
+
+# Social media links (optional)
+social-network-links:
+  github: your-github-username
+  youtube: "@EngineeringExplained"
+
+# Plugins (optional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

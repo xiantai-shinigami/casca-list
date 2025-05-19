@@ -5,8 +5,12 @@ baseurl: "" # Leave empty for GitHub Pages
 url: "https://your-github-username.github.io/your-repo-name"
 
 # Theme settings
-theme: jekyll-theme-minimal # You can change this to another built-in theme
-remote_theme: jekyll-theme-cayman # Alternative remote theme option
+theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark # Forces dark mode
 
 # Build settings
 markdown: kramdown
